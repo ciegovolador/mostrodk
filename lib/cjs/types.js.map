@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../types.ts"],
+  "sourcesContent": ["\n\nexport type ThreadSummary = {\n  orderId: string,\n  messageCount: number\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}
