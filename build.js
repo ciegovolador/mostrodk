@@ -48,9 +48,9 @@ esbuild
   .build({
     ...common,
     entryPoints: ['index.ts'],
-    outfile: 'lib/nostr.bundle.js',
+    outfile: 'lib/mostro.bundle.js',
     format: 'iife',
-    globalName: 'NostrTools',
+    globalName: 'MostroTools',
     define: {
       window: 'self',
       global: 'self',
