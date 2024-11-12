@@ -1,5 +1,4 @@
+import * as core from "./core.ts" 
+import * as client from "./client.ts" 
 
-export function hello(name:string): string {
-
-return `Hello ${name}! :)`
-}
+export {core, client}
