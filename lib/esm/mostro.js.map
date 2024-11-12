@@ -2,6 +2,6 @@
   "version": 3,
   "sources": ["../../mostro.ts"],
   "sourcesContent": ["\nexport function hello(name:string): string {\n\nreturn `Hello ${name}! :)`\n}"],
-  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA;AACO,SAAS,MAAM,MAAqB;AAE3C,SAAO,SAAS;AAChB;",
+  "mappings": ";AACO,SAAS,MAAM,MAAqB;AAE3C,SAAO,SAAS;AAChB;",
   "names": []
 }

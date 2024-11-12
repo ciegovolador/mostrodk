@@ -11,7 +11,7 @@ const entryPoints = fs
       // file !== 'test-helpers.ts' &&
       // file !== 'helpers.ts' &&
       // file !== 'benchmarks.ts' &&
-      // !file.endsWith('.test.ts') &&
+      !file.endsWith('.test.ts') &&
       fs.statSync(join(process.cwd(), file)).isFile(),
   )
 
@@ -48,9 +48,9 @@ esbuild
   .build({
     ...common,
     entryPoints: ['index.ts'],
-    outfile: 'lib/mostro.bundle.js',
+    outfile: 'lib/nostr.bundle.js',
     format: 'iife',
-    globalName: 'MostroTools',
+    globalName: 'NostrTools',
     define: {
       window: 'self',
       global: 'self',

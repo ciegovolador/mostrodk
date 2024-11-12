@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../events.ts"],
-  "sourcesContent": ["export const getEvents = (eventName: string) => {\nreturn `hola $(eventName)`\n}"],
-  "mappings": ";AAAO,IAAM,YAAY,CAAC,cAAsB;AAChD,SAAO;AACP;",
-  "names": []
-}
